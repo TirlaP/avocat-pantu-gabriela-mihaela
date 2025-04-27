@@ -144,17 +144,16 @@ const ArticleDetail = () => {
               </Card>
 
               {/* CTA */}
-              <Card className="bg-primary text-white">
-                <CardHeader>
-                  <CardTitle className="text-white">Aveți nevoie de ajutor?</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="mb-6">Contactați-ne pentru o consultație inițială și discutați cazul dumneavoastră cu avocații noștri.</p>
-                  <Button asChild variant="secondary">
-                    <Link to="/contact">Programare Online</Link>
-                  </Button>
-                </CardContent>
-              </Card>
+              <div className="mt-8 bg-[#800000] text-white p-6 rounded-sm shadow-md">
+              <h3 className="text-xl font-serif font-semibold mb-4">Aveți nevoie de ajutor?</h3>
+              <p className="mb-6">Contactați-ne pentru o consultație inițială și discutați cazul dumneavoastră cu avocații noștri.</p>
+              <Link 
+                to="/contact"
+                className="bg-white text-[#800000] font-medium px-4 py-2 rounded-sm block text-center hover:bg-[#d4b97d] hover:text-[#44331a] transition-all duration-300 shadow-md transform hover:translate-y-[-2px]"
+              >
+                Contactați-ne
+              </Link>
+            </div>
             </div>
           </div>
         </div>

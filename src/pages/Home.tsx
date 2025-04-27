@@ -220,7 +220,6 @@ const Home = () => {
         title="Sunteți Gata Să Începem?"
         subtitle="Contactați-ne pentru o consultație inițială și discutați cazul dumneavoastră cu unul dintre avocații noștri."
         bgColor="bg-primary"
-        className="text-white"
       >
         <div className="text-center animate-fade-up">
           <Button asChild variant="secondary" size="lg" className="bg-white hover:bg-secondary text-primary hover:text-white">
