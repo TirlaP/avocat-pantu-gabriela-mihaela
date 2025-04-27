@@ -4,10 +4,11 @@ import { Link } from 'react-router-dom'
 
 interface SidebarNavProps {
   areas: PracticeArea[]
-  currentSlug: string
+  currentSlug?: string // Made optional and will be used for compatibility
 }
 
-const SidebarNav = ({ areas, currentSlug }: SidebarNavProps) => {
+// Remove currentSlug from the destructured parameters since it's not used
+const SidebarNav = ({ areas }: SidebarNavProps) => {
   return (
     <div className="bg-white rounded-sm p-6 shadow-sm border border-gray-100">
       <h3 className="text-xl font-serif font-semibold text-[#800000] mb-4">Domenii de Practică</h3>

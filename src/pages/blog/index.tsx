@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { useState } from 'react'
 import { blogArticles } from '../../lib/blog/articles'
 import { Button } from '@/components/ui/button'
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from '@/components/ui/card'
 import { Grid, List, BookOpen, Calendar } from 'lucide-react'
 
 const Blog = () => {
@@ -83,7 +83,7 @@ const Blog = () => {
           
           {viewMode === 'grid' ? (
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {blogArticles.slice(0, 3).map((article, index) => (
+              {blogArticles.slice(0, 3).map((article) => (
                 <Card key={article.id} className="transition-all hover:shadow-lg hover:translate-y-[-2px] duration-300 border-t-4 border-t-[#800000] overflow-hidden group">
                   <CardHeader className="relative">
                     <div className="absolute top-0 right-0 bg-[#800000] text-white text-xs font-medium px-3 py-1 rounded-bl-sm">
