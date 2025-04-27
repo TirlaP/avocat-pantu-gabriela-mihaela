@@ -1,0 +1,12 @@
+# Placeholder for attorney image
+
+This is a placeholder file that should be replaced with an actual image.
+The recommended image specs for the attorney photo are:
+- Width: 600-800px
+- Height: 800-1000px
+- Format: JPG or WebP (for better compression)
+- Orientation: Portrait
+- Style: Professional headshot or standing pose in a law office setting
+- Filename: attorney.jpg
+
+When adding the real photo of Av. Gabriela Mihaela Panțu, replace this file with the actual image and name it "attorney.jpg".
